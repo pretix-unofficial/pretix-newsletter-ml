@@ -3,15 +3,15 @@ from django.dispatch import receiver
 from django.urls import resolve, reverse
 from django.utils.translation import ugettext_lazy as _, ugettext_noop
 from i18nfield.strings import LazyI18nString
-
 from pretix.base.settings import settings_hierarkey
-from pretix.base.signals import order_placed, logentry_display
-from pretix.control.signals import nav_event
+from pretix.base.signals import logentry_display, order_placed
+from pretix.control.signals import nav_event_settings
 from pretix.presale.signals import contact_form_fields
+
 from .tasks import newsletter_ml_order_placed
 
 
-@receiver(nav_event, dispatch_uid='newsletter_ml_nav')
+@receiver(nav_event_settings, dispatch_uid='newsletter_ml_nav')
 def navbar_info(sender, request, **kwargs):
     url = resolve(request.path_info)
     if not request.user.has_event_permission(request.organizer, request.event, 'can_change_event_settings'):

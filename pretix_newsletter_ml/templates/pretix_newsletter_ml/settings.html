@@ -1,8 +1,8 @@
-{% extends "pretixcontrol/event/base.html" %}
+{% extends "pretixcontrol/event/settings_base.html" %}
 {% load i18n %}
 {% load bootstrap3 %}
-{% block content %}
-    <h2>{% trans "Mailing list integration" %}</h2>
+{% block inside %}
+    <legend>{% trans "Mailing list integration" %}</legend>
     <form action="" method="post" class="form-horizontal" enctype="multipart/form-data">
         {% csrf_token %}
         {% bootstrap_form_errors form %}
