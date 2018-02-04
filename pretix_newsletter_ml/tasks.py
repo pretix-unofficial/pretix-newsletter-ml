@@ -15,6 +15,7 @@ def newsletter_ml_order_placed(self, event: int, order: int) -> None:
     order = Order.objects.get(pk=order)
 
     skip = (
+        not order.email or
         not event.settings.newsletter_ml_subscribe_address or (
             not event.settings.newsletter_ml_add_automatically
             and not order.meta_info_data.get('contact_form_data', {}).get('ml_newsletter') is True
