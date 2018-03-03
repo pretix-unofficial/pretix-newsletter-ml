@@ -10,7 +10,7 @@ class PluginApp(AppConfig):
         author = 'Raphael Michel'
         description = 'pretix newsletter integration for mailing lists'
         visible = True
-        version = '1.1.0'
+        version = '1.2.0'
 
     def ready(self):
         from . import signals  # NOQA
