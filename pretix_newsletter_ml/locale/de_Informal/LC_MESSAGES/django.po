@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-06 17:55+0200\n"
+"POT-Creation-Date: 2018-03-06 16:48+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Raphael Michel <michel@rami.io>\n"
 "Language-Team: \n"
@@ -36,15 +36,15 @@ msgstr "MailChimp-Integration"
 msgid "Save"
 msgstr "Speichern"
 
-#: pretix_newsletter_ml/views.py:17
+#: pretix_newsletter_ml/views.py:18
 msgid "Subscribe address"
 msgstr ""
 
-#: pretix_newsletter_ml/views.py:21
+#: pretix_newsletter_ml/views.py:22
 msgid "Add emails to the list without asking users in the frontend"
 msgstr "E-Mail-Adressen von Bestellern ohne Nachfrage zur Liste hinzufügen"
 
-#: pretix_newsletter_ml/views.py:22
+#: pretix_newsletter_ml/views.py:23
 msgid ""
 "Not recommended, might be considered illegal/unfair business practice in "
 "your legislation."
@@ -52,7 +52,7 @@ msgstr ""
 "Nicht empfohlen, könnte in deinem Land als illegal oder unlauterer "
 "Wettbewerb gelten."
 
-#: pretix_newsletter_ml/views.py:26
+#: pretix_newsletter_ml/views.py:27
 msgid "Checkbox label"
 msgstr "Checkbox-Beschriftung"
 
