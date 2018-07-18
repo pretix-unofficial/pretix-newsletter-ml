@@ -8,48 +8,53 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 16:48+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-07-18 20:00+0000\n"
+"Last-Translator: Yunus Fırat Pişkin <firat.piskin@idvlabs.com>\n"
+"Language-Team: Turkish <https://translate.pretix.eu/projects/pretix/"
+"pretix-plugin-newsletter-ml/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: pretix_newsletter_ml/signals.py:20
 msgid "Mailing list"
-msgstr ""
+msgstr "Mail listesi"
 
 #: pretix_newsletter_ml/signals.py:66
 msgid "A subscribe request for the mailing list has been sent."
-msgstr ""
+msgstr "Mail listesi için bir abonelik talebi gönderildi."
 
 #: pretix_newsletter_ml/signals.py:74
+#, fuzzy
 msgid "Yes, I want to receive the organizer's newsletter"
-msgstr ""
+msgstr "Evet, organizatörün bültenini almak istiyorum"
 
 #: pretix_newsletter_ml/templates/pretix_newsletter_ml/settings.html:5
 msgid "Mailing list integration"
-msgstr ""
+msgstr "Mail listesi entegrasyonu"
 
 #: pretix_newsletter_ml/templates/pretix_newsletter_ml/settings.html:14
 msgid "Save"
-msgstr ""
+msgstr "Kaydet"
 
 #: pretix_newsletter_ml/views.py:18
 msgid "Subscribe address"
-msgstr ""
+msgstr "Üye olun"
 
 #: pretix_newsletter_ml/views.py:22
 msgid "Add emails to the list without asking users in the frontend"
-msgstr ""
+msgstr "Kullanıcılara ön planda sormadan e-postaları listeye ekle"
 
 #: pretix_newsletter_ml/views.py:23
 msgid ""
 "Not recommended, might be considered illegal/unfair business practice in "
 "your legislation."
 msgstr ""
+"Tavsiye edilmez, yürürlükte yasa dışı/haksız ticari uygulama sayılabilir."
 
 #: pretix_newsletter_ml/views.py:27
 msgid "Checkbox label"
-msgstr ""
+msgstr "Onay kutusu etiketi"
