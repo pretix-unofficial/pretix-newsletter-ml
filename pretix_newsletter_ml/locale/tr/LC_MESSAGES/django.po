@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 16:48+0100\n"
-"PO-Revision-Date: 2018-07-18 20:00+0000\n"
+"PO-Revision-Date: 2018-07-19 06:16+0000\n"
 "Last-Translator: Yunus Fırat Pişkin <firat.piskin@idvlabs.com>\n"
 "Language-Team: Turkish <https://translate.pretix.eu/projects/pretix/"
 "pretix-plugin-newsletter-ml/tr/>\n"
@@ -28,7 +28,6 @@ msgid "A subscribe request for the mailing list has been sent."
 msgstr "Mail listesi için bir abonelik talebi gönderildi."
 
 #: pretix_newsletter_ml/signals.py:74
-#, fuzzy
 msgid "Yes, I want to receive the organizer's newsletter"
 msgstr "Evet, organizatörün bültenini almak istiyorum"
 
