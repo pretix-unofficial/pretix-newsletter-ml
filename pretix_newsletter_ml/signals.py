@@ -14,7 +14,7 @@ from .tasks import newsletter_ml_order_placed
 @receiver(nav_event_settings, dispatch_uid='newsletter_ml_nav')
 def navbar_info(sender, request, **kwargs):
     url = resolve(request.path_info)
-    if not request.user.has_event_permission(request.organizer, request.event, 'can_change_event_settings'):
+    if not request.user.has_event_permission(request.organizer, request.event, 'can_change_event_settings', request=request):
         return []
     return [{
         'label': _('Mailing list'),
