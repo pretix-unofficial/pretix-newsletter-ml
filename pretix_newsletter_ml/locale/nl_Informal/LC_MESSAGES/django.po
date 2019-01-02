@@ -21,11 +21,11 @@ msgstr ""
 
 #: pretix_newsletter_ml/signals.py:20
 msgid "Mailing list"
-msgstr ""
+msgstr "Mailinglijst"
 
 #: pretix_newsletter_ml/signals.py:66
 msgid "A subscribe request for the mailing list has been sent."
-msgstr ""
+msgstr "Een inschrijfverzoek voor de mailinglijst is verzonden."
 
 #: pretix_newsletter_ml/signals.py:74
 msgid "Yes, I want to receive the organizer's newsletter"
@@ -33,7 +33,7 @@ msgstr "Ja, ik wil de nieuwsbrief van de organisator ontvangen"
 
 #: pretix_newsletter_ml/templates/pretix_newsletter_ml/settings.html:5
 msgid "Mailing list integration"
-msgstr ""
+msgstr "Mailinglijstintegratie"
 
 #: pretix_newsletter_ml/templates/pretix_newsletter_ml/settings.html:14
 msgid "Save"
@@ -41,7 +41,7 @@ msgstr "Opslaan"
 
 #: pretix_newsletter_ml/views.py:18
 msgid "Subscribe address"
-msgstr ""
+msgstr "Inschrijfadres"
 
 #: pretix_newsletter_ml/views.py:22
 msgid "Add emails to the list without asking users in the frontend"
