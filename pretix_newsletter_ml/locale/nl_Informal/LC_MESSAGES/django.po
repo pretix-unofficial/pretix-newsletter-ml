@@ -8,11 +8,11 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 16:48+0100\n"
-"PO-Revision-Date: 2019-01-02 10:00+0000\n"
+"PO-Revision-Date: 2019-01-02 13:14+0000\n"
 "Last-Translator: Maarten van den Berg <maartenberg1@gmail.com>\n"
-"Language-Team: Dutch <https://translate.pretix.eu/projects/pretix/"
-"pretix-plugin-newsletter-ml/nl/>\n"
-"Language: nl\n"
+"Language-Team: Dutch (informal) <https://translate.pretix.eu/projects/pretix/"
+"pretix-plugin-newsletter-ml/nl_Informal/>\n"
+"Language: nl_Informal\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,7 +29,7 @@ msgstr "Een inschrijfverzoek voor de mailinglijst is verzonden."
 
 #: pretix_newsletter_ml/signals.py:74
 msgid "Yes, I want to receive the organizer's newsletter"
-msgstr "Ja, ik wil graag de nieuwsbrief van de organisator ontvangen"
+msgstr "Ja, ik wil de nieuwsbrief van de organisator ontvangen"
 
 #: pretix_newsletter_ml/templates/pretix_newsletter_ml/settings.html:5
 msgid "Mailing list integration"
@@ -55,7 +55,7 @@ msgid ""
 "your legislation."
 msgstr ""
 "Niet aanbevolen, kan beschouwd worden als onwettelijke/oneerlijke "
-"handelspraktijken in uw wetgeving."
+"handelspraktijken in je wetgeving."
 
 #: pretix_newsletter_ml/views.py:27
 msgid "Checkbox label"
