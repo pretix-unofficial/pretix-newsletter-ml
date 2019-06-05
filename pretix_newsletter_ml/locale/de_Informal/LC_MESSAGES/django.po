@@ -3,28 +3,28 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 16:48+0100\n"
-"PO-Revision-Date: 2018-03-08 17:04+0000\n"
-"Last-Translator: Raphael Michel <michel@rami.io>\n"
-"Language-Team: German (informal) <https://translate.pretix.eu/projects/pretix"
-"/pretix-plugin-newsletter-ml/de_Informal/>\n"
+"PO-Revision-Date: 2019-04-14 06:00+0000\n"
+"Last-Translator: Juliane Wessalowski <juliane.wessalowski@gmail.com>\n"
+"Language-Team: German (informal) <https://translate.pretix.eu/projects/"
+"pretix/pretix-plugin-newsletter-ml/de_Informal/>\n"
 "Language: de_Informal\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19.1\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #: pretix_newsletter_ml/signals.py:20
 msgid "Mailing list"
-msgstr "Mailing-Liste"
+msgstr "Mailingliste"
 
 #: pretix_newsletter_ml/signals.py:66
 msgid "A subscribe request for the mailing list has been sent."
-msgstr "Eine Eintragung wurde an die Mailing-Liste geschickt."
+msgstr "Eine Eintragung wurde an die Mailingliste geschickt."
 
 #: pretix_newsletter_ml/signals.py:74
 msgid "Yes, I want to receive the organizer's newsletter"
-msgstr "Ja, ich möchte den Newsletter des Veranstalters erhalten."
+msgstr "Ja, ich möchte den Newsletter des Veranstalters erhalten"
 
 #: pretix_newsletter_ml/templates/pretix_newsletter_ml/settings.html:5
 msgid "Mailing list integration"
