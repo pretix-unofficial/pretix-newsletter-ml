@@ -1,5 +1,5 @@
 pretix newsletter integration for mailing lists
-==========================
+===============================================
 
 This is a plugin for `pretix`_. 
 
