@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 16:48+0100\n"
-"PO-Revision-Date: 2018-08-28 12:00+0000\n"
-"Last-Translator: oocf <oswaldocerna@gmail.com>\n"
+"PO-Revision-Date: 2019-11-22 11:00+0000\n"
+"Last-Translator: Carolina Fernández <cfermart@gmail.com>\n"
 "Language-Team: Spanish <https://translate.pretix.eu/projects/pretix/"
 "pretix-plugin-newsletter-ml/es/>\n"
 "Language: es\n"
@@ -17,23 +17,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #: pretix_newsletter_ml/signals.py:20
 msgid "Mailing list"
-msgstr ""
+msgstr "Lista de correo"
 
 #: pretix_newsletter_ml/signals.py:66
 msgid "A subscribe request for the mailing list has been sent."
-msgstr ""
+msgstr "Se ha enviado una petición de suscripción a la lista de correo."
 
 #: pretix_newsletter_ml/signals.py:74
 msgid "Yes, I want to receive the organizer's newsletter"
-msgstr ""
+msgstr "Sí, quiero recibir la newsletter de la organización"
 
 #: pretix_newsletter_ml/templates/pretix_newsletter_ml/settings.html:5
 msgid "Mailing list integration"
-msgstr ""
+msgstr "Integración con la lista de correo"
 
 #: pretix_newsletter_ml/templates/pretix_newsletter_ml/settings.html:14
 msgid "Save"
@@ -41,18 +41,20 @@ msgstr "Guardar"
 
 #: pretix_newsletter_ml/views.py:18
 msgid "Subscribe address"
-msgstr ""
+msgstr "Dirección de suscripción"
 
 #: pretix_newsletter_ml/views.py:22
 msgid "Add emails to the list without asking users in the frontend"
-msgstr ""
+msgstr "Añadir e-mails a la lista sin preguntar directamente a los usuarios"
 
 #: pretix_newsletter_ml/views.py:23
 msgid ""
 "Not recommended, might be considered illegal/unfair business practice in "
 "your legislation."
 msgstr ""
+"No recomendado al poder considerarse una práctica comercial ilegal/injusta "
+"en tu legislación."
 
 #: pretix_newsletter_ml/views.py:27
 msgid "Checkbox label"
-msgstr ""
+msgstr "Etiqueta de casilla"
