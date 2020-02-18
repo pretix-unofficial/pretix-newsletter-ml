@@ -5,6 +5,7 @@ from django.utils.translation import ugettext_lazy as _, ugettext_noop
 from i18nfield.strings import LazyI18nString
 from pretix.base.settings import settings_hierarkey
 from pretix.base.signals import logentry_display, order_placed
+from pretix.base.templatetags.rich_text import rich_text_snippet
 from pretix.control.signals import nav_event_settings
 from pretix.presale.signals import contact_form_fields
 
@@ -51,7 +52,7 @@ def cf_formfields(sender, **kwargs):
         return {}
     return {
         'ml_newsletter': forms.BooleanField(
-            label=sender.settings.newsletter_ml_text,
+            label=rich_text_snippet(sender.settings.newsletter_ml_text),
             required=False,
         )
     }
