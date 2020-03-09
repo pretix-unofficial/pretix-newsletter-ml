@@ -2,7 +2,7 @@ import logging
 
 from django import forms
 from django.urls import reverse
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from i18nfield.forms import I18nFormField, I18nTextInput
 from pretix.base.forms import SettingsForm
 from pretix.base.models import Event

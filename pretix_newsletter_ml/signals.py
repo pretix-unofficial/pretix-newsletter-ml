@@ -1,7 +1,7 @@
 from django import forms
 from django.dispatch import receiver
 from django.urls import resolve, reverse
-from django.utils.translation import ugettext_lazy as _, ugettext_noop
+from django.utils.translation import gettext_lazy as _, gettext_noop
 from i18nfield.strings import LazyI18nString
 from pretix.base.settings import settings_hierarkey
 from pretix.base.signals import logentry_display, order_placed
@@ -71,6 +71,6 @@ def pretixcontrol_logentry_display(sender, logentry, **kwargs):
         return plains[logentry.action_type]
 
 
-settings_hierarkey.add_default('newsletter_ml_text', LazyI18nString.from_gettext(ugettext_noop(
+settings_hierarkey.add_default('newsletter_ml_text', LazyI18nString.from_gettext(gettext_noop(
     "Yes, I want to receive the organizer's newsletter"
 )), LazyI18nString)
