@@ -25,7 +25,7 @@ cmdclass = {
 
 setup(
     name='pretix-newsletter-ml',
-    version='1.3.0',
+    version='1.3.1',
     description='pretix newsletter integration for mailing lists',
     long_description=long_description,
     url='https://github.com/pretix/pretix-newsletter-ml',
