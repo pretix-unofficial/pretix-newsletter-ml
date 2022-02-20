@@ -1,20 +1,17 @@
 import logging
 
 from i18nfield.strings import LazyI18nString
-from pretix.base.models import Event, Order, Organizer
-from pretix.base.services.tasks import TransactionAwareTask
+from pretix.base.models import Event, Order
+from pretix.base.services.tasks import EventTask
 from pretix.base.services.mail import mail
 from pretix.celery_app import app
-from django_scopes import scope
 
 logger = logging.getLogger(__name__)
 
 
-@app.task(base=TransactionAwareTask, bind=True, max_retries=10)
-def newsletter_ml_order_placed(self, event: int, order: int) -> None:
-    with scope(organizer=Organizer.objects.get(events=event)):
-        event = Event.objects.get(pk=event)
-        order = Order.objects.get(pk=order)
+@app.task(base=EventTask, bind=True, max_retries=10)
+def newsletter_ml_order_placed(event: Event, order: int) -> None:
+    order = Order.objects.get(pk=order)
 
     skip = (
         not order.email or
