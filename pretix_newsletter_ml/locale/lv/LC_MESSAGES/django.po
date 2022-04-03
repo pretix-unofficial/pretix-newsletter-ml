@@ -8,13 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 16:48+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-04 01:00+0000\n"
+"Last-Translator: Liga V <lerning_by_dreaming@gmx.de>\n"
+"Language-Team: Latvian <https://translate.pretix.eu/projects/pretix/"
+"pretix-plugin-newsletter-ml/lv/>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
+"19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: pretix_newsletter_ml/signals.py:20
 msgid "Mailing list"
@@ -34,7 +38,7 @@ msgstr ""
 
 #: pretix_newsletter_ml/templates/pretix_newsletter_ml/settings.html:14
 msgid "Save"
-msgstr ""
+msgstr "Saglabāt"
 
 #: pretix_newsletter_ml/views.py:18
 msgid "Subscribe address"
