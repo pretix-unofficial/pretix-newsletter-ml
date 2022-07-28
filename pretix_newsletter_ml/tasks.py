@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 
 @app.task(base=EventTask, bind=True, max_retries=10)
-def newsletter_ml_order_placed(event: Event, order: int) -> None:
+def newsletter_ml_order_placed(self, event: Event, order: int) -> None:
     order = Order.objects.get(pk=order)
 
     skip = (
