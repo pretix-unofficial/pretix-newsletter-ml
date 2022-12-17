@@ -3,6 +3,7 @@ from distutils.command.build import build
 
 from django.core import management
 from setuptools import setup, find_packages
+from pretix_newsletter_ml import __version__
 
 
 try:
@@ -25,7 +26,7 @@ cmdclass = {
 
 setup(
     name='pretix-newsletter-ml',
-    version='1.3.1',
+    version=__version__,
     description='pretix newsletter integration for mailing lists',
     long_description=long_description,
     url='https://github.com/pretix/pretix-newsletter-ml',

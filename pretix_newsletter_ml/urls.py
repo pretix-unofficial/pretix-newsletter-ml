@@ -1,8 +1,8 @@
-from django.conf.urls import url
+from django.urls import path
 
 from .views import MLSettings
 
 urlpatterns = [
-    url(r'^control/event/(?P<organizer>[^/]+)/(?P<event>[^/]+)/newsletter_ml/settings$',
+    path('control/event/<str:organizer>/<str:event>/newsletter_ml/settings',
         MLSettings.as_view(), name='settings'),
 ]
