@@ -1,9 +1,8 @@
 import logging
-
 from i18nfield.strings import LazyI18nString
 from pretix.base.models import Event, Order
-from pretix.base.services.tasks import EventTask
 from pretix.base.services.mail import mail
+from pretix.base.services.tasks import EventTask
 from pretix.celery_app import app
 
 logger = logging.getLogger(__name__)
