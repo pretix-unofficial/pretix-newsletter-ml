@@ -3,8 +3,9 @@ import logging
 from django import forms
 from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
-from i18nfield.forms import I18nFormField, I18nTextInput
-from pretix.base.forms import SettingsForm
+from i18nfield.forms import I18nFormField
+
+from pretix.base.forms import SettingsForm, I18nMarkdownTextInput
 from pretix.base.models import Event
 from pretix.control.views.event import (
     EventSettingsFormView, EventSettingsViewMixin,
@@ -26,7 +27,7 @@ class NewsletterSettingsForm(SettingsForm):
     newsletter_ml_text = I18nFormField(
         label=_("Checkbox label"),
         required=True,
-        widget=I18nTextInput,
+        widget=I18nMarkdownTextInput,
     )
 
 
