@@ -13,10 +13,14 @@ def newsletter_ml_order_placed(self, event: Event, order: int) -> None:
     order = Order.objects.get(pk=order)
 
     skip = (
-        not order.email or
-        not event.settings.newsletter_ml_subscribe_address or (
+        not order.email
+        or not event.settings.newsletter_ml_subscribe_address
+        or (
             not event.settings.newsletter_ml_add_automatically
-            and not order.meta_info_data.get('contact_form_data', {}).get('ml_newsletter') is True
+            and not order.meta_info_data.get("contact_form_data", {}).get(
+                "ml_newsletter"
+            )
+            is True
         )
     )
     if skip:
@@ -24,13 +28,16 @@ def newsletter_ml_order_placed(self, event: Event, order: int) -> None:
 
     mail(
         event.settings.newsletter_ml_subscribe_address,
-        'subscribe',
-        LazyI18nString('subscribe via pretix order {}'.format(order.code)),
+        "subscribe",
+        LazyI18nString("subscribe via pretix order {}".format(order.code)),
         {},
         event,
-        sender=order.email
+        sender=order.email,
     )
 
-    order.log_action('pretix_newsletter_ml.subscribe', data={
-        'email_address': order.email,
-    })
+    order.log_action(
+        "pretix_newsletter_ml.subscribe",
+        data={
+            "email_address": order.email,
+        },
+    )

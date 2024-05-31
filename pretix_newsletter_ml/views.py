@@ -19,7 +19,9 @@ class NewsletterSettingsForm(SettingsForm):
     )
     newsletter_ml_add_automatically = forms.BooleanField(
         label=_("Add emails to the list without asking users in the frontend"),
-        help_text=_("Not recommended, might be considered illegal/unfair business practice in your legislation."),
+        help_text=_(
+            "Not recommended, might be considered illegal/unfair business practice in your legislation."
+        ),
         required=False,
     )
     newsletter_ml_text = I18nFormField(
@@ -32,11 +34,14 @@ class NewsletterSettingsForm(SettingsForm):
 class MLSettings(EventSettingsViewMixin, EventSettingsFormView):
     model = Event
     form_class = NewsletterSettingsForm
-    template_name = 'pretix_newsletter_ml/settings.html'
-    permission = 'can_change_settings'
+    template_name = "pretix_newsletter_ml/settings.html"
+    permission = "can_change_settings"
 
     def get_success_url(self) -> str:
-        return reverse('plugins:pretix_newsletter_ml:settings', kwargs={
-            'organizer': self.request.event.organizer.slug,
-            'event': self.request.event.slug
-        })
+        return reverse(
+            "plugins:pretix_newsletter_ml:settings",
+            kwargs={
+                "organizer": self.request.event.organizer.slug,
+                "event": self.request.event.slug,
+            },
+        )
