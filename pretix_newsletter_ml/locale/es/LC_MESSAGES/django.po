@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 16:48+0100\n"
-"PO-Revision-Date: 2024-11-02 01:00+0000\n"
+"PO-Revision-Date: 2024-11-05 20:00+0000\n"
 "Last-Translator: CVZ-es <damien.bremont@casadevelazquez.org>\n"
 "Language-Team: Spanish <https://translate.pretix.eu/projects/pretix/"
 "pretix-plugin-newsletter-ml/es/>\n"
@@ -29,7 +29,7 @@ msgstr "Se ha enviado una petición de suscripción a la lista de correo."
 
 #: pretix_newsletter_ml/signals.py:74
 msgid "Yes, I want to receive the organizer's newsletter"
-msgstr "Sí, quiero recibir la newsletter de la organización"
+msgstr "Sí, deseo recibir el boletín del organizador"
 
 #: pretix_newsletter_ml/templates/pretix_newsletter_ml/settings.html:5
 msgid "Mailing list integration"
@@ -45,15 +45,17 @@ msgstr "Dirección de suscripción"
 
 #: pretix_newsletter_ml/views.py:22
 msgid "Add emails to the list without asking users in the frontend"
-msgstr "Añadir e-mails a la lista sin preguntar directamente a los usuarios"
+msgstr ""
+"Añadir correos electrónicos a la lista sin preguntar a los usuarios del "
+"frontend"
 
 #: pretix_newsletter_ml/views.py:23
 msgid ""
 "Not recommended, might be considered illegal/unfair business practice in "
 "your legislation."
 msgstr ""
-"No recomendado al poder considerarse una práctica comercial ilegal/injusta "
-"en tu legislación."
+"No recomendado, podría considerarse una práctica comercial ilegal/desleal en "
+"su legislación."
 
 #: pretix_newsletter_ml/views.py:27
 msgid "Checkbox label"
