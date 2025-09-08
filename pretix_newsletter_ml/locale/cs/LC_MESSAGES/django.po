@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 16:48+0100\n"
-"PO-Revision-Date: 2023-03-19 21:00+0000\n"
-"Last-Translator: Michael <michael.happl@gmx.at>\n"
+"PO-Revision-Date: 2025-09-08 17:00+0000\n"
+"Last-Translator: Alois Pospíšil <alois.pospisil@gmail.com>\n"
 "Language-Team: Czech <https://translate.pretix.eu/projects/pretix/"
 "pretix-plugin-newsletter-ml/cs/>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.13\n"
 
 #: pretix_newsletter_ml/signals.py:20
 msgid "Mailing list"
@@ -45,7 +45,7 @@ msgstr "Adresa pro přihlášení"
 
 #: pretix_newsletter_ml/views.py:22
 msgid "Add emails to the list without asking users in the frontend"
-msgstr "Přidat e-maily do seznamu bez dotazování uživatelů ve frontendu"
+msgstr "Pr̄idat e-maily do seznamu bez dotazování užařivatelů ve frontendu"
 
 #: pretix_newsletter_ml/views.py:23
 msgid ""
