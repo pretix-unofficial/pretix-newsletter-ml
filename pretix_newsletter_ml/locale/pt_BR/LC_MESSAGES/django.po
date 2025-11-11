@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 16:48+0100\n"
-"PO-Revision-Date: 2025-11-11 05:00+0000\n"
+"PO-Revision-Date: 2025-11-11 22:00+0000\n"
 "Last-Translator: Marcos Xavier Gil Júnior <marcosxaviergiljr@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.pretix.eu/projects/"
 "pretix/pretix-plugin-newsletter-ml/pt_BR/>\n"
@@ -25,7 +25,7 @@ msgstr "Lista de e-mails"
 
 #: pretix_newsletter_ml/signals.py:66
 msgid "A subscribe request for the mailing list has been sent."
-msgstr ""
+msgstr "Foi enviado um pedido de inscrição na lista de discussão."
 
 #: pretix_newsletter_ml/signals.py:74
 msgid "Yes, I want to receive the organizer's newsletter"
