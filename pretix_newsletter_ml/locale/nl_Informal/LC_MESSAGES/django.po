@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-06 16:48+0100\n"
-"PO-Revision-Date: 2019-01-02 13:14+0000\n"
-"Last-Translator: Maarten van den Berg <maartenberg1@gmail.com>\n"
+"PO-Revision-Date: 2026-01-28 21:28+0000\n"
+"Last-Translator: Ruud Hendrickx <ruud@leckxicon.eu>\n"
 "Language-Team: Dutch (informal) <https://translate.pretix.eu/projects/pretix/"
 "pretix-plugin-newsletter-ml/nl_Informal/>\n"
 "Language: nl_Informal\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: pretix_newsletter_ml/signals.py:20
 msgid "Mailing list"
@@ -25,7 +25,7 @@ msgstr "Mailinglijst"
 
 #: pretix_newsletter_ml/signals.py:66
 msgid "A subscribe request for the mailing list has been sent."
-msgstr "Een inschrijfverzoek voor de mailinglijst is verzonden."
+msgstr "Er is een aanmeldingsverzoek voor de mailinglijst verzonden."
 
 #: pretix_newsletter_ml/signals.py:74
 msgid "Yes, I want to receive the organizer's newsletter"
@@ -33,7 +33,7 @@ msgstr "Ja, ik wil de nieuwsbrief van de organisator ontvangen"
 
 #: pretix_newsletter_ml/templates/pretix_newsletter_ml/settings.html:5
 msgid "Mailing list integration"
-msgstr "Mailinglijstintegratie"
+msgstr "Integratie van mailinglijsten"
 
 #: pretix_newsletter_ml/templates/pretix_newsletter_ml/settings.html:14
 msgid "Save"
@@ -46,17 +46,16 @@ msgstr "Inschrijfadres"
 #: pretix_newsletter_ml/views.py:22
 msgid "Add emails to the list without asking users in the frontend"
 msgstr ""
-"Voeg e-mailadressen toe aan de lijst zonder toestemming te vragen aan de "
-"gebruikers"
+"E-mails toevoegen aan de lijst zonder gebruikers in de frontend te vragen"
 
 #: pretix_newsletter_ml/views.py:23
 msgid ""
 "Not recommended, might be considered illegal/unfair business practice in "
 "your legislation."
 msgstr ""
-"Niet aanbevolen, kan beschouwd worden als onwettelijke/oneerlijke "
-"handelspraktijken in je wetgeving."
+"Niet aanbevolen, kan in je wetgeving als illegale/oneerlijke handelspraktijk "
+"worden beschouwd."
 
 #: pretix_newsletter_ml/views.py:27
 msgid "Checkbox label"
-msgstr "Checkboxlabel"
+msgstr "Label selectievakje"
